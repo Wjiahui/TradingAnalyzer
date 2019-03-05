@@ -1,0 +1,38 @@
+table:
+    trade :
+        id : 编号
+        instrument : 合约
+        offset : 开平标志
+        direction : 买卖方向
+        price : 价格
+        position : 仓位
+        trade_time : 交易时间
+        strategy_id : 策略编号
+
+position_type:
+    long_open :
+        code : 0
+        direction : 2
+        offset : 0
+        description : long_open
+    long_close :
+        code : 1
+        direction : 2
+        offset : 1
+        description : long_close
+    short_open :
+        code : 2
+        direction : 3
+        offset : 0
+        description : short_open
+    short_close :
+        code : 3
+        direction : 3
+        offset : 1
+        description : short_close
+mysql:
+    host : "127.0.0.1"
+    port : 3306
+    user : "root"
+    passwd : "admin"
+    db : "mydatabase"

@@ -1,0 +1,23 @@
+error_codes :
+    code_empty :
+        code : -1
+        description : code empty
+    type_empty :
+        code : -2
+        description : type empty
+    type_invalid :
+        code : -3
+        description : type invalid
+    fund_not_exist :
+        code : -4
+        description : fund not exist
+    user_not_exist :
+        code : -5
+        description : user not exist
+    account_not_exist :
+        code : -6
+        description : account not exist
+    subaccount_not_exist :
+        code : -7
+        description : subaccount not exist
+
